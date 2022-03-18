@@ -128,10 +128,8 @@ class Tetris:
             self.figure.rotation = old_rotation
 
 
-# Initialize the game engine
 pygame.init()
 
-# Define some colors
 BLACK = (0, 0, 0)
 WHITE = (255, 255, 255)
 GRAY = (128, 128, 128)
@@ -141,7 +139,6 @@ screen = pygame.display.set_mode(size)
 
 pygame.display.set_caption("Tetris")
 
-# Loop until the user clicks the close button.
 done = False
 clock = pygame.time.Clock()
 fps = 25
